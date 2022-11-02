@@ -1,0 +1,11 @@
+<table>
+	<tr>
+		<th>Id</th>
+		<th>Precio</th>
+	</tr>
+	
+	<tr th:each="mn:${menus}">
+		<td th:text="${mn.Id}"></td>
+		<td th:text="${mn.precio}"></td>
+	</tr>
+</table>

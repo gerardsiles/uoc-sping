@@ -1,11 +1,11 @@
-package com.example.ParaCasa;
+package com.example.ParaCasa.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.stereotype.Controller;
 
 
 @Controller
-public class controller {
+public class HomeController {
 	@GetMapping("/")
 	public String home() {
 		return "home";
